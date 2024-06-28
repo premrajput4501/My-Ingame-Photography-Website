@@ -9,7 +9,7 @@ h1 {
     text-shadow: 1px 1px 4px black;
     text-transform: uppercase;
     text-align: center;
-    font-family: cursive;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 h2 {
@@ -83,26 +83,21 @@ h2:hover {
 
     .dropbtn {
         position: relative;
-        /* font-size: 8px; */
-        font-weight: bold;
-        /* height: 30px; */
+        font-size: 8px;
         padding: 10px 10px;
     }
 
     .dropdown-content {
-        width: 300px;
-        padding: 1px 1px;
+        padding: 10px 10px;
         position: absolute;
     }
 
     .dropdown-content a {
         text-transform: uppercase;
         text-align: center;
-        top: 10px;
-        padding: 10px 10px;
+        margin-top: 3px;
+        padding: 5px 5px;
         font-size: 9pt;
-        height: 25px;
-        width: 120px;
         position: relative;
     }
 
@@ -119,14 +114,11 @@ h2:hover {
     .dropdown:hover .dropdown-content {
         display: block;
         background-color: yellow;
-        /* height: 150px; */
-        width: 150px;
         box-shadow: 2px 2px 3px black;
     }
     .dropdown-content a {
         top: -1px;
         padding: 0px 0px;
-        /* background-color: yellow; */
         color: black;
         border-radius: 10px;
     }
@@ -136,7 +128,6 @@ h2:hover {
     }
 
     li {
-        font-size: 14px;
         font-weight: bold;
         height: 20px;
         position: relative;
